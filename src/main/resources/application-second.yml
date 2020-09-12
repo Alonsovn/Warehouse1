@@ -1,0 +1,19 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://dbwarehouse2:5433/warehouse2
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
+---
+server:
+  port: 8084
+  
+application:
+    name: warehouse
+    
+pulsar-config:
+    serviceUrl: pulsar://pulsar:6650
+    gatewayToWarehouseTopic: GatewayToWarehouse2Topic
+    subscription: my-subscrption
+    
