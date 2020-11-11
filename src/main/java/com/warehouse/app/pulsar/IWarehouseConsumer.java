@@ -1,4 +1,4 @@
-package com.warehouse.app.service;
+package com.warehouse.app.pulsar;
 
 import org.apache.pulsar.client.api.Consumer;
 

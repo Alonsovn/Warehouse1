@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import com.warehouse.app.service.IWarehouseConsumer;
+import com.warehouse.app.pulsar.IWarehouseConsumer;
 
 @ConfigurationProperties(prefix = "pulsar-config")
 @Component

@@ -1,11 +1,13 @@
 package com.warehouse.app.repository;
 
+import java.util.UUID;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.warehouse.app.model.Warehouse;
+import com.warehouse.app.model.Item;
 
 @Repository
-public interface WarehouseRepository extends JpaRepository<Warehouse, Integer> {
+public interface ItemRepository extends JpaRepository<Item, UUID> {
 
 }

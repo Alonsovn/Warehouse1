@@ -16,4 +16,10 @@ pulsar-config:
     serviceUrl: pulsar://localhost:6650
     gatewayToWarehouseTopic: GatewayToWarehouse1Topic
     subscription: my-subscrption
-    
+
+spring:
+   jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true    
+  
